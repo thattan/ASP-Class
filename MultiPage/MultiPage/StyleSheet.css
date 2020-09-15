@@ -1,0 +1,30 @@
+﻿body {
+
+}
+
+#wrapper {
+    width: 1000px;
+    border: thin solid #0094ff;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    border: thin solid #000000;
+}
+
+nav {
+    height: 75px;
+    border: thin solid #00ff90;
+}
+
+main {
+    min-height: 400px;
+    border: thin solid #b200ff;
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    height: 50px;
+    border: thin solid #808080;
+}

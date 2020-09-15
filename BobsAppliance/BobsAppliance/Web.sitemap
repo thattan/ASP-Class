@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="*" title="Old Home"  description=""  >
+    <siteMapNode url="~/Default.aspx" title="Home" description="New Home Page" />
+    <siteMapNode url="~/AboutUs/AboutUs.aspx" title="About Us"  description="Learn more about us" />
+    <siteMapNode url="~/ContactUs/ContactUs.aspx" title="Contact Us"  description="Send us a note we would like to hear from you" />
+    <siteMapNode url="~/NewsLetter/NewsLetter.aspx" title="Sign Up for News Letter" description="Add yourself to the list" />
+    <siteMapNode url="~/Manage/ManageHome.aspx" title="Manage" description="This should be for managers only">
+      <siteMapNode url="~/Manage/AddUser.aspx" title ="Add New User" description="new user added here" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

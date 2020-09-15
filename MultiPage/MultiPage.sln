@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MultiPage", "MultiPage\", "{8F110B67-F158-4902-AC98-CEFA3B4FE5F8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50510"
+		Debug.AspNetCompiler.PhysicalPath = "MultiPage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50510\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50510"
+		Release.AspNetCompiler.PhysicalPath = "MultiPage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50510\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50510"
+		SlnRelativePath = "MultiPage\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F110B67-F158-4902-AC98-CEFA3B4FE5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F110B67-F158-4902-AC98-CEFA3B4FE5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4D8EBCD-3301-4CE2-BB75-68C5CD245BF4}
+	EndGlobalSection
+EndGlobal

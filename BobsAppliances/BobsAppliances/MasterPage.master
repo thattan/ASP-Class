@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+            <header>
+                Welcome to Bobs Appliances
+            </header>
+            <nav>
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticSubMenuIndent="10px" BackColor="#B5C7DE" DynamicHorizontalOffset="5" Font-Names="Verdana" Font-Size="1.2em" ForeColor="#284E98" Orientation="Horizontal">
+                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#B5C7DE" />
+                    <DynamicSelectedStyle BackColor="#507CD1" />
+                    <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="15px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#507CD1" />
+                </asp:Menu>
+               
+            </nav>
+            <main>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    Master Page Content
+
+                </asp:ContentPlaceHolder>
+            </main>
+            <footer>
+                Footer
+            </footer>
+        </div>
+    </form>
+     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+</body>
+</html>
