@@ -39,7 +39,7 @@ public partial class Newsletter_NewsLetter : System.Web.UI.Page
         Response.Redirect("~/NewsLetter/ThankYou.aspx");
 
         //Add them to the database
-
+        CustomerDA.AddCustomer(c);
 
 
     }
