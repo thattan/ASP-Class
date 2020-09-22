@@ -19,6 +19,7 @@ public partial class Newsletter_NewsLetter : System.Web.UI.Page
         string email;
         string phone;
         int numberAppliance;
+        int numRecords;
 
         firstName = txtFirstName.Text;
         lastName = txtLastName.Text;
@@ -35,12 +36,16 @@ public partial class Newsletter_NewsLetter : System.Web.UI.Page
         //do something with the object data
         lblMessage.Text = firstName + " " + lastName;
 
-        //Thank them
-        Response.Redirect("~/NewsLetter/ThankYou.aspx");
-
         //Add them to the database
-        CustomerDA.AddCustomer(c);
+        numRecords = CustomerDA.AddCustomer(c);
 
-
+        if (numRecords > 0)
+        {
+            Server.Transfer("~/NewsLetter/ThankYou.aspx");
+        } else
+        {
+            Session["Cust"] = "Sorry add failed try later";
+            Server.Transfer("~/NewsLetter/ErrorPage.aspx");
+        }   
     }
 }
