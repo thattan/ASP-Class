@@ -47,7 +47,7 @@ public class CustomerDA
             
         } catch (SqlException e)
         {
-            HttpContext.Current.Session.Add("Error", e);
+            HttpContext.Current.Session["Error"] = "An error occured";
         }
         return num;
     }

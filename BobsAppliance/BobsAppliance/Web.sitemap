@@ -8,6 +8,7 @@
     <siteMapNode url="~/Manage/ManageHome.aspx" title="Manage" description="This should be for managers only">
       <siteMapNode url="~/Manage/AddUser.aspx" title ="Add New User" description="new user added here" />
       <siteMapNode url="~/Manage/ShowCustomers.aspx" title ="Show Customers" description="Show Customers" />
+      <siteMapNode url="~/Manage/ShowWithValue.aspx" title ="Search Customers" description="Search Customers" />
     </siteMapNode>
   </siteMapNode>
 </siteMap>
