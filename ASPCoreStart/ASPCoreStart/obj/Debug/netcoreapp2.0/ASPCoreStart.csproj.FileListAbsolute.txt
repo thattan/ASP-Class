@@ -1,0 +1,11 @@
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\bin\Debug\netcoreapp2.0\ASPCoreStart.deps.json
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\bin\Debug\netcoreapp2.0\ASPCoreStart.runtimeconfig.json
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\bin\Debug\netcoreapp2.0\ASPCoreStart.runtimeconfig.dev.json
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\bin\Debug\netcoreapp2.0\ASPCoreStart.dll
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\bin\Debug\netcoreapp2.0\ASPCoreStart.pdb
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.csproj.CoreCompileInputs.cache
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.AssemblyInfoInputs.cache
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.AssemblyInfo.cs
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.dll
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.pdb
+N:\ASP-Class\ASPCoreStart\ASPCoreStart\obj\Debug\netcoreapp2.0\ASPCoreStart.csprojAssemblyReference.cache
