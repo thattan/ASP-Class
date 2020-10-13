@@ -1,0 +1,27 @@
+﻿@model PartyInvitesf2020.Models.GuestResponse
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+</head>
+<body>
+    <h1>Thank you, @Model.Name</h1>
+    @if (Model.WillAttend == true)
+    {
+        @:It's great that you are attending;
+    } else
+    {
+        @:Sorry to hear you are not coming;
+    }
+
+    <p>
+        Click <a asp-action="ListResponses">here</a> to see who is coming.
+    </p>
+</body>
+</html>
