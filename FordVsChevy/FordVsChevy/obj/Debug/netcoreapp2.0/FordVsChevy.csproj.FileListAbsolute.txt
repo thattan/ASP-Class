@@ -1,0 +1,12 @@
+N:\ASP-Class\FordVsChevy\FordVsChevy\bin\Debug\netcoreapp2.0\FordVsChevy.deps.json
+N:\ASP-Class\FordVsChevy\FordVsChevy\bin\Debug\netcoreapp2.0\FordVsChevy.runtimeconfig.json
+N:\ASP-Class\FordVsChevy\FordVsChevy\bin\Debug\netcoreapp2.0\FordVsChevy.runtimeconfig.dev.json
+N:\ASP-Class\FordVsChevy\FordVsChevy\bin\Debug\netcoreapp2.0\FordVsChevy.dll
+N:\ASP-Class\FordVsChevy\FordVsChevy\bin\Debug\netcoreapp2.0\FordVsChevy.pdb
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.csprojAssemblyReference.cache
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.csproj.CoreCompileInputs.cache
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.AssemblyInfoInputs.cache
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.AssemblyInfo.cs
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.dll
+N:\ASP-Class\FordVsChevy\FordVsChevy\obj\Debug\netcoreapp2.0\FordVsChevy.pdb
