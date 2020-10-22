@@ -1,0 +1,40 @@
+﻿@model Assignment4.Models.User
+@{
+    ViewData["Title"] = "View";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration Form</title>
+</head>
+<body>
+    <div>
+        This is the registration form
+    </div>
+    <form asp-action="RsvpForm" method="post">
+        <p>
+            <label asp-for="FirstName">First Name:</label>
+            <input asp-for="FirstName" />
+        </p>
+        <p>
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" />
+        </p>
+        <p>
+            <label asp-for="Phone">Phone Number:</label>
+            <input asp-for="Phone" />
+        </p>
+
+        <p>
+            <label asp-for="Email">Email Address:</label>
+            <input asp-for="Email" />
+        </p>
+
+        <button type="submit">Submit Registration</button>
+    </form>
+</body>
+</html>
+
