@@ -4,5 +4,6 @@
     <siteMapNode url="~/Default.aspx" title="Home" description="New Home Page" />
     <siteMapNode url="~/BadSite/BadSite.aspx" title="Bad Site"  description="View bad site" />
     <siteMapNode url="~/GoodSite/GoodSite.aspx" title="Good Site"  description="View good site" />
+    <siteMapNode url="~/Registration.aspx" title="Registration"  description="Registration" />
   </siteMapNode>
 </siteMap>

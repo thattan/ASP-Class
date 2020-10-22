@@ -22,6 +22,17 @@ namespace Assignment4.Controllers
             return View();
         }
 
+        public IActionResult GoodSites()
+        {
+
+            return View();
+        }
+
+        public IActionResult BadSites()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
