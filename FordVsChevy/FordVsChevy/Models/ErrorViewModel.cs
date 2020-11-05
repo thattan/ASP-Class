@@ -1,6 +1,6 @@
 using System;
 
-namespace FordVsChevy.Models
+namespace FordVSChevy.Models
 {
     public class ErrorViewModel
     {

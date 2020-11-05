@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FordVsChevy.Models.ManageViewModels
+namespace FordVSChevy.Models.ManageViewModels
 {
     public class IndexViewModel
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using FordVsChevy.Models;
+using FordVSChevy.Models;
 
-namespace FordVsChevy.Data
+namespace FordVSChevy.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -14,6 +14,12 @@ namespace FordVsChevy.Data
             : base(options)
         {
         }
+
+        public DbSet<CarInfo> CarInfos { get; set; }
+        public DbSet<CarType> carTypes { get; set; }
+        public DbSet<Product> Products { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

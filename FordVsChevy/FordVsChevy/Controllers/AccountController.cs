@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using FordVsChevy.Models;
-using FordVsChevy.Models.AccountViewModels;
-using FordVsChevy.Services;
+using FordVSChevy.Models;
+using FordVSChevy.Models.AccountViewModels;
+using FordVSChevy.Services;
 
-namespace FordVsChevy.Controllers
+namespace FordVSChevy.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]

@@ -3,26 +3,26 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:59138/",
-      "sslPort": 44360
+      "applicationUrl": "http://localhost:64722/",
+      "sslPort": 44309
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "https://localhost:44360/",
+      "launchUrl": "https://localhost:44309/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "FordVsChevy": {
+    "FordVSChevy": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:59139/"
+      "applicationUrl": "http://localhost:64723/"
     }
   }
 }

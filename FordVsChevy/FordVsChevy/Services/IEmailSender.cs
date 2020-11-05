@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FordVsChevy.Services
+namespace FordVSChevy.Services
 {
     public interface IEmailSender
     {

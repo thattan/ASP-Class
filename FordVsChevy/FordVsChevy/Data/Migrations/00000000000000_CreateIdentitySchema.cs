@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FordVsChevy.Data.Migrations
+namespace FordVSChevy.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

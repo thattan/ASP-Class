@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FordVsChevy.Controllers;
+using FordVSChevy.Controllers;
 
 namespace Microsoft.AspNetCore.Mvc
 {

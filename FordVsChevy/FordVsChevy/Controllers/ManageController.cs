@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using FordVsChevy.Models;
-using FordVsChevy.Models.ManageViewModels;
-using FordVsChevy.Services;
+using FordVSChevy.Models;
+using FordVSChevy.Models.ManageViewModels;
+using FordVSChevy.Services;
 
-namespace FordVsChevy.Controllers
+namespace FordVSChevy.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
@@ -522,7 +522,7 @@ namespace FordVsChevy.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("FordVsChevy"),
+                _urlEncoder.Encode("FordVSChevy"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

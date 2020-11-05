@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using FordVsChevy.Data;
-using FordVsChevy.Models;
-using FordVsChevy.Services;
+using FordVSChevy.Data;
+using FordVSChevy.Models;
+using FordVSChevy.Services;
 
-namespace FordVsChevy
+namespace FordVSChevy
 {
     public class Startup
     {

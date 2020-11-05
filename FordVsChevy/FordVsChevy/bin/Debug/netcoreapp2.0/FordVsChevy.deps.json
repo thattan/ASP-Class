@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "FordVsChevy/1.0.0": {
+      "FordVSChevy/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.3",
@@ -30,10 +30,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4"
         },
         "runtime": {
-          "FordVsChevy.dll": {}
+          "FordVSChevy.dll": {}
         },
         "compile": {
-          "FordVsChevy.dll": {}
+          "FordVSChevy.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4811,7 +4811,7 @@
     }
   },
   "libraries": {
-    "FordVsChevy/1.0.0": {
+    "FordVSChevy/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using FordVsChevy.Services;
+using FordVSChevy.Services;
 
-namespace FordVsChevy.Services
+namespace FordVSChevy.Services
 {
     public static class EmailSenderExtensions
     {
