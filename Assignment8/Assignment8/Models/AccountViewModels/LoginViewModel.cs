@@ -9,7 +9,7 @@ namespace Assignment8.Models.AccountViewModels
     public class LoginViewModel
     {
         [Required]
-        [EmailAddress]
+        // [EmailAddress]
         public string Email { get; set; }
 
         [Required]
@@ -18,5 +18,6 @@ namespace Assignment8.Models.AccountViewModels
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+
     }
 }

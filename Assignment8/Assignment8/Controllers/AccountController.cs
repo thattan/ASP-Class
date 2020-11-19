@@ -221,6 +221,10 @@ namespace Assignment8.Controllers
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                user.FullName = model.FullName;
+                user.Address = model.Address;
+                user.Gender = model.Gender;
+                user.ZipCode = model.ZipCode;
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
