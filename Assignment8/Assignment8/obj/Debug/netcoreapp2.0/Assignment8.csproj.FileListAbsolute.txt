@@ -10,3 +10,15 @@ N:\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.Assembl
 N:\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.AssemblyInfo.cs
 N:\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.dll
 N:\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.pdb
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\bin\Debug\netcoreapp2.0\Assignment8.deps.json
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\bin\Debug\netcoreapp2.0\Assignment8.runtimeconfig.json
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\bin\Debug\netcoreapp2.0\Assignment8.runtimeconfig.dev.json
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\bin\Debug\netcoreapp2.0\Assignment8.dll
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\bin\Debug\netcoreapp2.0\Assignment8.pdb
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.csprojAssemblyReference.cache
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.csproj.CoreCompileInputs.cache
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.AssemblyInfoInputs.cache
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.AssemblyInfo.cs
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.dll
+C:\Users\tyler\Desktop\ASP-Class\Assignment8\Assignment8\obj\Debug\netcoreapp2.0\Assignment8.pdb

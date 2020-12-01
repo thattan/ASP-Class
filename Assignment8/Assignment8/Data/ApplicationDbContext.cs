@@ -15,6 +15,10 @@ namespace Assignment8.Data
         {
         }
 
+        public DbSet<Product> products { get; set; }
+        public DbSet<Announcement> announcements { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

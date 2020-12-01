@@ -20,6 +20,20 @@ namespace Assignment8.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.3-rtm-10026")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Assignment8.Models.Announcement", b =>
+                {
+                    b.Property<int>("AnnouncementId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("AnnouncementContent");
+
+                    b.Property<string>("AnnouncementTitle");
+
+                    b.HasKey("AnnouncementId");
+
+                    b.ToTable("announcements");
+                });
+
             modelBuilder.Entity("Assignment8.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -77,6 +91,22 @@ namespace Assignment8.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("Assignment8.Models.Product", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<double>("Cost");
+
+                    b.Property<string>("ProductName");
+
+                    b.Property<double>("SellPrice");
+
+                    b.HasKey("ProductId");
+
+                    b.ToTable("products");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
