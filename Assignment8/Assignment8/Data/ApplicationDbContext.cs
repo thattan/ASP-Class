@@ -17,7 +17,7 @@ namespace Assignment8.Data
 
         public DbSet<Product> products { get; set; }
         public DbSet<Announcement> announcements { get; set; }
-
+        public DbSet<ApplicationUser> users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
