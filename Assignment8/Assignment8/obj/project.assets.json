@@ -13393,24 +13393,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tyler\\.nuget\\packages\\": {},
+    "C:\\Users\\th633542\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyler\\Desktop\\ASP-Class\\Assignment8\\Assignment8\\Assignment8.csproj",
+      "projectUniqueName": "N:\\ASP-Class\\Assignment8\\Assignment8\\Assignment8.csproj",
       "projectName": "Assignment8",
-      "projectPath": "C:\\Users\\tyler\\Desktop\\ASP-Class\\Assignment8\\Assignment8\\Assignment8.csproj",
-      "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyler\\Desktop\\ASP-Class\\Assignment8\\Assignment8\\obj\\",
+      "projectPath": "N:\\ASP-Class\\Assignment8\\Assignment8\\Assignment8.csproj",
+      "packagesPath": "C:\\Users\\th633542\\.nuget\\packages\\",
+      "outputPath": "N:\\ASP-Class\\Assignment8\\Assignment8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\th633542\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

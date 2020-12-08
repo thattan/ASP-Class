@@ -46,6 +46,8 @@ namespace Assignment8.Controllers
                 }
             }
 
+
+
             x = await roleManager.RoleExistsAsync("Manager");
             if (!x)
             {
